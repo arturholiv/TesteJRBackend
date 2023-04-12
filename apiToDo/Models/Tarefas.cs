@@ -101,7 +101,7 @@ namespace apiToDo.Models
                 throw new Exception("Ocorreu um erro ao tentar atualizar a tarefa", ex);
             }
         }
-
+      
         public TarefaDTO PegarTarefaPorID(int ID_TAREFA)
         {
             try
